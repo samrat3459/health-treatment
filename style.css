@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+/* ================== navbar ================== */
+.appointment{
+    background-color: rgb(51, 144, 243);
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(51, 144, 243);
+    border-radius: 5px;
+}
+.appointment:hover{
+    background-color: transparent;
+    color: rgb(51, 144, 243);
+    border-color: rgb(0, 145, 255);
+}
+/* ========================== bannar section ====================== */
+
+.bannar{
+    background-image: url("images/first.png");
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+}
+.bannar-text{
+     padding: 80px;    
+}
+.bannar-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(0, 115, 255);
+}
+.bannar-btn{
+    padding: 15px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(65, 167, 245);
+    color: white;
+    cursor: pointer;
+}
+.bannar-btn:hover{
+    background-color: transparent;
+    border: 1px solid rgb(0, 136, 255);
+}
+
+/* ===================== content box part ================== */
+
+.content{
+    display: flex;
+    height: 300px;
+}
+.content-box1{
+    background-color: skyblue;
+    width: 33%;
+    padding: 20px 90px; 
+}
+.content-icon{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.content-text{
+    font-weight: 700;
+    color: white;
+}
+.content-box2{
+    background-color: rgba(0, 136, 255, 0.696);
+    width: 34%;
+    padding: 20px 75px;
+}
+.content-box3{
+    background-color: rgba(0, 166, 255, 0.565);
+    width: 33%;
+    padding: 20px 70px;
+}
+.content-btn{
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.content-btn:hover{
+    background-color: white;
+    color: rgb(64, 181, 224);
+}
+
+
+/* =========== welcome area ============== */
+
+.welcome-area{
+    margin: 90px 0px;
+    display: flex;
+}
+.welcome-photo {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .thumb1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+  }
+  .thumb2 {
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    width: 300px;
+  }
+.welcome-text{
+    margin-left: 300px;
+}  
+.welcome-text h3{
+    font-weight: 900;
+    border-bottom: inset;
+    border-color: rgb(128, 163, 240);
+}
+.welcome-text p{
+    color: grey;
+    font-weight: 300;
+}
+.welcome-icon i{
+    color: rgb(14, 162, 216);
+    margin-bottom: 10px;
+}
+.welcome-btn{
+    border: 1px solid rgb(0, 136, 255);
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+.welcome-btn:hover{
+    background-color: white;
+    color: rgb(0, 136, 255);
+}
+
+/* ================ department area ============== */
+.department{
+    width: 100%;
+    margin-top: 200px;
+    background-color: #F5FBFF;
+}
+.dep-heading{
+    text-align: center;
+    padding-top: 50px;
+}
+.dep-heading h1{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.dep-heading p{
+    color: rgb(133, 133, 133);
+    font-weight: 300;
+}
+.first-card{
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.card{
+    width: 30%;
+    float: left;
+    margin-left: 25px;
+    transition: 0.5s;
+    overflow: hidden;
+    height: 400px;
+}
+.card img{
+    transition: 0.5s;
+}
+.card:hover img{
+    transform: scale(1.25);
+}
+.image-block{
+    height: 220px;
+    overflow: hidden;
+}
+.card-content{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.card-content img{
+    width: 100%;
+}
+.card-text{
+    padding: 18px;
+}
+.card-text h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-text p{
+    color: rgb(133, 133, 133);
+    font-weight: 300;
+    margin-top: 15px;
+}
+.card-text a{
+    text-decoration: none;
+    color: rgb(15, 177, 241);
+}
+.card-text a:hover{
+    text-decoration: underline;
+    color: rgb(15, 177, 241);
+}
+
+.bannar-quate{
+    background-image: url('images/care.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+}
+.bannar-quate h5{
+    text-align: center;
+    padding: 175px;
+    line-height: 32px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.bannar-text{
+    overflow: hidden;
+}
+.bannar-text h4{
+    float: left;
+    padding-left: 15px;
+    width: 33.3%;  
+}
+
+/* ======================== care family ============================ */
+
+.care-all{
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.827);
+}
+.care-family{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.care-icon{
+    font-size: 33px;
+    background-color: #5DB2FF;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+.care-content h5{
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.care-content p{
+    margin-top: 20px;
+    line-height: 30px;
+    color: rgb(133, 133, 133);
+}
+.care-image{
+    width: 45%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.care-image img{
+    width: 100%;
+    margin-left: 40px;
+}
+
+/* ===================== expert doctors ================ */
+
+.expert-heading h2{
+      margin-top: 80px;
+      text-align: center;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.745);
+}
+.total-card{
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.full-card{
+    float: left;
+    margin-left: 40px;
+    width: 20%;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.expert-card{
+    overflow: hidden;
+    height: 220px;
+}
+.expert-card img{
+    width: 100%;
+    transition: 0.5s;
+}
+.expert-card:hover img{
+    transform: scale(1.05);
+}
+.expert-content{
+    padding: 18px;
+    background-color: #F5FBFF;
+    text-align: center;
+}
+.expert-content:hover{
+    background-color: #5DB2FF;
+    color: #FFFFFF;
+}
+
+/* =================== contact area ======================== */
+
+.contact-area{
+   background: linear-gradient(rgba(74, 172, 233, 0.7), rgba(54, 165, 235, 0.7)),url('images/last1.png') no-repeat center center / cover; 
+   width: 50%;
+   height: 220px;
+   float: left;
+   position: relative;
+}
+.appointment-area{
+    background: linear-gradient(rgba(32, 120, 228, 0.7), rgba(32, 120, 228, 0.7)),url('images/last2.png') no-repeat center center / cover;
+    width: 50%;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+.main-contact{
+    margin-top: 50px;
+}
+.contact-text{
+    float: left;
+    position: absolute;
+    left: 25px;
+    top: 94px;
+    padding-left: 20px;
+    color: white;
+}
+.contact-box-btn{
+    overflow: hidden;
+    border: 1px solid white;
+    padding: 10px 10px;
+    width: 30%;
+    border-radius: 20px;
+    position: absolute;
+    left: 365px;
+    top: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.contact-box-btn:hover{
+    background-color: white;
+    color: rgb(10, 114, 241);
+}
+.contact-text2{
+    float: left;
+    position: absolute;
+    top: 94px;
+    left: 25px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+.appointment-box-btn{
+    overflow: hidden;
+    border: 1px solid #FFFFFF;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 365px;
+    top: 100px;
+    cursor: pointer;
+}
+.appointment-box-btn:hover{
+    background-color: #FFFFFF;
+    color: rgb(10, 114, 241);
+}
+
+/* ================= social contact ================ */
+
+.logo-icon{
+    background-color: #1F1F1F;
+    width: 40%;
+    float: left;
+    height: 350px;
+}
+.logo-icon-all{
+    padding: 33px;
+    margin-left: 20px;
+}
+.logo-icon-content{
+    margin-top: 30px;
+    color: #707070;
+}
+.social-icon{
+    font-size: 15px;
+    margin-top: 40px;
+}
+.social-icon i{
+    margin-right: 10px;
+    line-height: 3;
+}
+.first{
+    border: 1px solid transparent;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    color: #bababa;
+    background-color: #707070;
+    text-align: center;
+}
+.first:hover{
+    color: white;
+}
+.second{
+    border: 1px solid transparent;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    color: #bababa;
+    background-color: #707070;
+    text-align: center;
+}
+.second:hover{
+    color: white;
+}
+.third{
+    border: 1px solid transparent;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    color: #bababa;
+    background-color: #707070;
+    text-align: center;
+}
+.third:hover{
+    color: white;
+}
+.chart-area{
+    width: 60%;
+    background-color: #1F1F1F;
+    overflow: hidden;
+    height: 350px;
+}
+.chart-area h4{
+    padding: 35px;
+    color: #FFFFFF;
+}
+.department-chart{
+    float: left;
+}
+.department-chart ul{
+    list-style: none;
+    margin-left: 5px;
+    line-height: 35px;
+    color: #707070;
+}
+.useful-links{
+    overflow: hidden;
+    float: left;
+}
+.useful-links ul{
+    list-style: none;
+    margin-left: 5px;
+    line-height: 35px;
+    color: #707070;
+}
+.address{
+    overflow: hidden;
+}
+.address p{
+    margin-left: 35px;
+    line-height: 35px;
+    color: #707070;
+}
+
+/*  ======================== footer area ==================== */
+
+.footer-area{
+    background-color: #000000;
+    width: 100%;
+    padding: 15px 0px;
+    color: #707070;
+    text-align: center;
+    font-size: 17px;
+}
+.footer-area p{
+    margin-top: 12px;
+}
+span{
+    color: rgb(20, 171, 231);
+}
